@@ -1,0 +1,22 @@
+{
+  "name": "Find and Replace",
+  "description": "Find and replace all instances of any word on a website",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/reverse16.png",
+      "32": "/images/reverse32.png",
+      "48": "/images/reverse48.png",
+      "128": "/images/reverse128"
+    }
+  },
+  "icons": {
+    "16": "/images/reverse16.png",
+    "32": "/images/reverse32.png",
+    "48": "/images/reverse48.png",
+    "128": "/images/reverse128.png"
+  }
+}
